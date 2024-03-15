@@ -1,0 +1,452 @@
+repo_name: ctavolazzi/pokeapi
+report_id: 7750fe1eb23d589c539da20b8284f75b
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-15T01:59:54+00:00'
+requested_by: Naramsim
+provider: github
+branch: master
+detected_tools_count: 32
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ctavolazzi/pokeapi
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi
+  detection_source: Repo Metadata
+- name: ceph
+  description: A free-software storage platform
+  website_url: http://ceph.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: File Storage
+  image_url: https://img.stackshare.io/service/1818/cephglyph_copy_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Alexandre Boucey
+  last_updated_on: 2016-07-07 12:23:59.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/graphql/examples/node/package.json
+  detection_source: graphql/examples/node/package.json
+  last_updated_by: Alessandro Pezzè
+  last_updated_on: 2021-03-19 18:10:13.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  version: '15.1'
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Alessandro Pezzè
+  last_updated_on: 2023-01-09 15:11:23.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 7.0.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Alessandro Pezzè
+  last_updated_on: 2023-01-09 15:11:23.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Alessandro Pezzè
+  last_updated_on: 2023-01-08 18:22:16.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/.github/workflows/docker-image.yml
+  detection_source: ".github/workflows/docker-image.yml"
+  last_updated_by: Alessandro Pezzè
+  last_updated_on: 2021-05-15 12:49:16.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  version: 1.23.3
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/docker-compose.yml
+  detection_source: Resources/nginx/nginx.conf
+  last_updated_by: Alexandre Boucey
+  last_updated_on: 2016-07-07 12:23:59.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: phalt
+  last_updated_on: 2014-12-04 11:11:46.000000000 Z
+- name: Pylint
+  description: Source-code, bug and quality checker for the Python programming language
+  website_url: https://www.pylint.org/
+  version: 2.8.2
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4837/py.jpg
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/test-requirements.txt
+  detection_source: test-requirements.txt
+  last_updated_by: Alessandro Pezzè
+  last_updated_on: 2021-04-28 21:12:34.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/graphql/examples/node/package.json
+  detection_source: graphql/examples/node/package.json
+  last_updated_by: Alessandro Pezzè
+  last_updated_on: 2021-03-19 18:10:13.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Alessandro Pezzè
+  last_updated_on: 2023-01-09 15:11:23.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi
+  detection_source: Repo Metadata
+- name: Django
+  description: A high-level Python Web framework that encourages rapid development
+    and clean
+  package_url: https://pypi.org/project/Django
+  version: 2.1.15
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19832/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Alessandro Pezzè
+  last_updated_on: 2021-05-14 12:53:42.000000000 Z
+  vulnerabilities:
+  - name: Potential bypass of an upstream access control based on URL paths in Django
+    cve_id: CVE-2021-44420
+    cve_url: https://github.com/advisories/GHSA-v6rh-hp5x-86rv
+    detected_date: Dec 14
+    severity: high
+    first_patched: 2.2.25
+- name: Unipath
+  description: Object-oriented alternative to os/os.path/shutil
+  package_url: https://pypi.org/project/Unipath
+  version: '1.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Alessandro Pezzè
+  last_updated_on: 2017-10-21 13:21:23.000000000 Z
+- name: coverage
+  description: Code coverage measurement for Python
+  package_url: https://pypi.org/project/coverage
+  version: 4.5.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19904/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Charles Marttinen
+  last_updated_on: 2018-10-18 22:56:38.000000000 Z
+- name: django-appconf
+  description: A helper class for handling configuration defaults of packaged apps
+    gracefully
+  package_url: https://pypi.org/project/django-appconf
+  version: 1.0.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20374/default_cf6e114d2165ab0bf32c948df1cde4f9dd7bea3c.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Alessandro Pezzè
+  last_updated_on: 2021-05-14 12:53:42.000000000 Z
+- name: django-cors-headers
+  description: Django-cors-headers is a Django application for handling the server
+    headers required for Cross-Origin Resource Sharing
+  package_url: https://pypi.org/project/django-cors-headers
+  version: 2.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20425/default_fd0859a8a050b41b42cc678a2c0c5f51ce41801a.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Alessandro Pezzè
+  last_updated_on: 2021-05-14 12:53:42.000000000 Z
+- name: django-redis
+  description: Full featured redis cache backend for Django
+  package_url: https://pypi.org/project/django-redis
+  version: 4.10.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20669/default_8661a5c1d9ac6f06e853c3c1b9fe936bb7029ff7.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Alessandro Pezzè
+  last_updated_on: 2021-05-14 12:53:42.000000000 Z
+- name: django-tastypie
+  description: A flexible &amp; capable API layer for Django
+  package_url: https://pypi.org/project/django-tastypie
+  version: 0.14.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Alessandro Pezzè
+  last_updated_on: 2021-05-14 12:53:42.000000000 Z
+- name: djangorestframework
+  description: Web APIs for Django, made easy
+  package_url: https://pypi.org/project/djangorestframework
+  version: 3.9.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19870/default_d05f6f09935776629f62e8aed365805502c14921.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Alessandro Pezzè
+  last_updated_on: 2021-05-14 12:53:42.000000000 Z
+  vulnerabilities:
+  - name: Cross-site Scripting (XSS) in Django REST Framework
+    cve_id: CVE-2020-25626
+    cve_url: https://github.com/advisories/GHSA-fx83-3ph3-9j2q
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.11.2
+- name: gunicorn
+  description: WSGI HTTP Server for UNIX
+  package_url: https://pypi.org/project/gunicorn
+  version: 20.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Alessandro Pezzè
+  last_updated_on: 2021-04-27 19:58:16.000000000 Z
+- name: psycopg2-binary
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2-binary
+  version: 2.9.5
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: GuikiPT
+  last_updated_on: 2023-03-13 17:11:25.000000000 Z
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  version: 2.8.1
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Alessandro Pezzè
+  last_updated_on: 2021-04-27 19:58:16.000000000 Z
+- name: python-mimeparse
+  description: A module provides basic functions for parsing mime-type names and matching
+    them against a list of media-ranges
+  package_url: https://pypi.org/project/python-mimeparse
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20548/default_cde277f9f5ddb25ccf86d553790fb97f5a8f825c.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Alessandro Pezzè
+  last_updated_on: 2021-04-27 19:58:16.000000000 Z
+- name: simplejson
+  description: Simple, fast, extensible JSON encoder/decoder for Python
+  package_url: https://pypi.org/project/simplejson
+  version: 3.17.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19859/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Alessandro Pezzè
+  last_updated_on: 2021-04-27 19:58:16.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  version: 1.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: phalt
+  last_updated_on: 2014-12-04 11:11:46.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/ctavolazzi/pokeapi/blob/master/graphql/examples/node/package-lock.json
+  detection_source: graphql/examples/node/package.json
+  last_updated_by: Alessandro Pezzè
+  last_updated_on: 2021-03-19 18:10:13.000000000 Z
+  vulnerabilities:
+  - name: node-fetch forwards secure headers to untrusted sites
+    cve_id: CVE-2022-0235
+    cve_url: https://github.com/advisories/GHSA-r683-j2x4-v87g
+    detected_date: Jan 22
+    severity: high
+    first_patched: 2.6.7
